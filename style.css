@@ -19,7 +19,7 @@ h1 {
 
 .UPDATELOG {
   position:fixed;
-  text-align: justify;
+  text-align: unset;
   font-size: 20px;
   width: 0vw;
   font-family: "Rubik", sans-serif;
