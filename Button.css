@@ -227,9 +227,9 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
-    width: 15vw;
-    height: 15vh;
-    transform:translate(0vw, 50vh);
+    width: 20vw;
+    height: 25vh;
+    transform:translate(0vw, 25vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -254,9 +254,9 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
-    width: 15vw;
-    height: 15vh;
-    transform:translate(36vw, 50vh);
+    width: 20vw;
+    height: 25vh;
+    transform:translate(36vw, 25vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -333,7 +333,7 @@
     border-top-left-radius: 50px;
     width: 200px;
     height: 100px;
-    transform:translate(0px, -40vh);
+    transform:translate(0px, -45vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -359,8 +359,8 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
-    width: 200px;
-    height: 100px;
+    width: 15vw;
+    height: 15vh;
     transform:translate(0vw, 0vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;

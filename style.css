@@ -4,7 +4,7 @@
     /*style for mobile*/
     h1 {
       text-align: center;
-      transform: translate(35vw, 135px);
+      transform: translate(35vw, 15vh);
       font-size: 50px;
       width: 100%;
       font-family: "Rubik", sans-serif;
@@ -58,7 +58,7 @@
   /*style for desktop and tablet*/
   h1 {
     text-align: center;
-    transform: translate(35vw, 135px);
+    transform: translate(33vw, 0vh);
     font-size: 50px;
     width: 100%;
     font-family: "Rubik", sans-serif;
