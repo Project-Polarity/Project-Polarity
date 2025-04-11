@@ -45,3 +45,7 @@ h1 {
       11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
       0 0 10px rgba(39, 7, 27);
   }
+
+  @media screen and (max-width: 768px) {
+    
+  }
