@@ -9,14 +9,7 @@
     <head>
 
 <style>
-  #BackDropForMainPage {
-      position: fixed;
-      right: 0%;
-      bottom: 0;
-      min-width: 100%;
-      min-height: 100%;
-      z-index: -99;
-    }
+  
 </style>
 <!-- Stylesheet -->
 <link rel="stylesheet" href="Button.css" />
@@ -31,4 +24,52 @@
       <source src="BackroundGalaxy.mp4" type="video/mp4" />
     </video>
     <button class="Back" onclick="window.location.href = 'index.html';">Back</button>
+
+
+    <style>
+      @media only screen and (min-width:1500px) and (max-width: 1700px) {
+      /*style for desktop and tablet*/
+    #BackDropForMainPage {
+      visibility: show;
+      transform: translate(-5vw, -50vh);
+      position: fixed;
+      z-index: -999;
+    }}
+
+    @media only screen and (min-width:1701px) and (max-width: 1920px) {
+  /*style for desktop and tablet*/
+  #BackDropForMainPage {
+    position: fixed;
+    right: 0%;
+    bottom: 0;
+    width: 100%;
+    min-height: 100%;
+    z-index: -999;
+  }}
+  @media only screen and (min-width:1300px) and (max-width: 1501px) {
+    /*style for desktop and tablet*/
+  #BackDropForMainPage {
+    visibility: show;
+    transform: translate(-5vw, -50vh);
+    position: fixed;
+    z-index: -999;
+  }}
+  @media only screen and (min-width:1000px) and (max-width: 1299px) {
+    /*style for desktop and tablet*/
+  #BackDropForMainPage {
+    visibility: show;
+    transform: translate(-5vw, -50vh);
+    position: fixed;
+    z-index: -999;
+  }}
+
+  @media only screen and (min-width:768px) and (max-width: 999px) {
+    /*style for desktop and tablet*/
+  #BackDropForMainPage {
+    visibility: show;
+    transform: translate(-6vw, -50vh);
+    position: fixed;
+    z-index: -999;
+  }}
+    </style>
 </body>
