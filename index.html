@@ -14,15 +14,18 @@
     <style>
       
     </style>
-    <ul class="UPDATELOG"> 
+    <ul class="UPDATELOG" style="z-index: 1000;" overflow="hidden"> 
       UPDATELOG:
       <li>Added Mobile Portrait Support</li>
       
   </head>
   <body>
-    <video playsinline autoplay muted loop id="BackDropForMainPage">
-      <source src="BackroundGalaxy.mp4" type="video/mp4" />
+    <video autoplay muted loop id="BackDropForMainPage" backround-size="cover" z-index="-999" playsinline poster="BackroundGalaxy.mp4">
+      <source src="BackroundGalaxy.mp4" type="video/mp4">
     </video>
+
+    <img src="Galaxy Image.png" alt="" id="GalaxyImage" />
+
     <div
       style="z-index: 100; display: flex; justify-content: center;"
       class="WEBPROXY"

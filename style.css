@@ -1,6 +1,22 @@
+
+
+
 /*Portrait */
   @media only screen and (max-width: 767px) and (orientation: portrait)
-  { 
+  {  
+    #BackDropForMainPage {
+    position: fixed;
+    right: 0%;
+    bottom: 0;
+    width: 50%;
+    height: auto;
+    z-index: -99;
+    background-attachment: fixed;
+    background-position: center;
+    scale: 5;
+    translate: 0vw -10vh;
+  }
+    
     h1 {
     text-align: center;
     transform: translate(-5vw, 5vh);
@@ -30,6 +46,7 @@
     color: #000000;
     text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
       2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231);
+
     }
   
   
@@ -66,18 +83,280 @@
 
 
 
-  /*Landscape */
 
-  @media only screen and (max-height: 300px) and (orientation: landscape) 
-  {
-    h1 {
+  /* Desktop*/
+  @media only screen and (min-width:1699px) and (max-width: 1920px) {
+  /*style for desktop and tablet*/
+  #BackDropForMainPage {
+    position: fixed;
+    right: 0%;
+    bottom: 0;
+    width: 100%;
+    min-height: 100%;
+    z-index: -999;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  #GalaxyImage {
+    visibility: collapse;
+  }
+
+  h1 {
+    text-align: center;
+    transform: translate(37vw, 0vh);
+    font-size: 50px;
+    width: 100%;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 0.3em;
+    color: #671cad;
+    text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+      2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231), 4px 0 0 rgb(39, 7, 46),
+      5px 0 0 rgb(39, 7, 45), 6px 0 0 rgb(39, 7, 44), 7px 0 0 rgb(39, 7, 43),
+      8px 0 0 rgb(58, 8, 139), 9px 0 0 rgb(30, 179, 30), 10px 0 0 rgb(39, 7, 41),
+      11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
+      0 0 10px rgba(39, 7, 27);
+  }
+  
+  
+  
+  .UPDATELOG {
+    position:fixed;
+    text-align: unset;
+    font-size: 20px;
+    width: 2vw;
+    overflow-wrap: normal;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 0.3em;
+    color: #000000;
+    text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+      2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231);
+    }
+  
+  
+    h2 {
       text-align: center;
-      transform: translate(0vw, 0vh);
-      font-size: 1px;
+      position: fixed;
+      font-size: 55px;
       width: 100%;
       font-family: "Rubik", sans-serif;
       letter-spacing: 0.3em;
-      color: #445326;
+      color: #671cad;
+      text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+        2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231), 4px 0 0 rgb(39, 7, 46),
+        5px 0 0 rgb(39, 7, 45), 6px 0 0 rgb(39, 7, 44), 7px 0 0 rgb(39, 7, 43),
+        8px 0 0 rgb(58, 8, 139), 9px 0 0 rgb(30, 179, 30), 10px 0 0 rgb(39, 7, 41),
+        11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
+        0 0 10px rgba(39, 7, 27);
+    }
+
+  }
+   /* Desktop*/
+   @media only screen and (min-width:1500px) and (max-width: 1700px) {
+    /*style for desktop and tablet*/
+  #BackDropForMainPage {
+    visibility: show;
+    transform: translate(-5vw, -10vh);
+    position: fixed;
+    z-index: -999;
+  }
+
+
+  
+    h1 {
+      text-align: center;
+      transform: translate(36vw, 0vh);
+      font-size: 50px;
+      width: 100%;
+      font-family: "Rubik", sans-serif;
+      letter-spacing: 0.3em;
+      color: #671cad;
+      text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+        2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231), 4px 0 0 rgb(39, 7, 46),
+        5px 0 0 rgb(39, 7, 45), 6px 0 0 rgb(39, 7, 44), 7px 0 0 rgb(39, 7, 43),
+        8px 0 0 rgb(58, 8, 139), 9px 0 0 rgb(30, 179, 30), 10px 0 0 rgb(39, 7, 41),
+        11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
+        0 0 10px rgba(39, 7, 27);
+    }
+    
+    
+    
+    .UPDATELOG {
+      position:fixed;
+      text-align: unset;
+      font-size: 20px;
+      width: 2vw;
+      text-wrap:nowrap;
+      font-family: "Rubik", sans-serif;
+      letter-spacing: 0.3em;
+      color: #000000;
+      text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+        2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231);
+        z-index: 999;
+      }
+    
+    
+      h2 {
+        text-align: center;
+        position: fixed;
+        font-size: 55px;
+        width: 100%;
+        font-family: "Rubik", sans-serif;
+        letter-spacing: 0.3em;
+        color: #671cad;
+        text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+          2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231), 4px 0 0 rgb(39, 7, 46),
+          5px 0 0 rgb(39, 7, 45), 6px 0 0 rgb(39, 7, 44), 7px 0 0 rgb(39, 7, 43),
+          8px 0 0 rgb(58, 8, 139), 9px 0 0 rgb(30, 179, 30), 10px 0 0 rgb(39, 7, 41),
+          11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
+          0 0 10px rgba(39, 7, 27);
+      }
+  
+    }
+
+     /* Desktop*/
+   @media only screen and (min-width:1300px) and (max-width: 1501px) {
+    /*style for desktop and tablet*/
+  #BackDropForMainPage {
+    visibility: show;
+    transform: translate(-5vw, -13vh);
+    position: fixed;
+    z-index: -999;
+  }
+
+
+  
+    h1 {
+      text-align: center;
+      transform: translate(33vw, 0vh);
+      font-size: 50px;
+      width: 100%;
+      font-family: "Rubik", sans-serif;
+      letter-spacing: 0.3em;
+      color: #671cad;
+      text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+        2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231), 4px 0 0 rgb(39, 7, 46),
+        5px 0 0 rgb(39, 7, 45), 6px 0 0 rgb(39, 7, 44), 7px 0 0 rgb(39, 7, 43),
+        8px 0 0 rgb(58, 8, 139), 9px 0 0 rgb(30, 179, 30), 10px 0 0 rgb(39, 7, 41),
+        11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
+        0 0 10px rgba(39, 7, 27);
+    }
+    
+    
+    
+    .UPDATELOG {
+      position:fixed;
+      text-align: unset;
+      font-size: 20px;
+      width: 2vw;
+      text-wrap:nowrap;
+      font-family: "Rubik", sans-serif;
+      letter-spacing: 0.3em;
+      color: #000000;
+      text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+        2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231);
+        z-index: 999;
+      }
+    
+    
+      h2 {
+        text-align: center;
+        position: fixed;
+        font-size: 55px;
+        width: 100%;
+        font-family: "Rubik", sans-serif;
+        letter-spacing: 0.3em;
+        color: #671cad;
+        text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+          2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231), 4px 0 0 rgb(39, 7, 46),
+          5px 0 0 rgb(39, 7, 45), 6px 0 0 rgb(39, 7, 44), 7px 0 0 rgb(39, 7, 43),
+          8px 0 0 rgb(58, 8, 139), 9px 0 0 rgb(30, 179, 30), 10px 0 0 rgb(39, 7, 41),
+          11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
+          0 0 10px rgba(39, 7, 27);
+      }
+  
+    }
+       /* Desktop*/
+   @media only screen and (min-width:1000px) and (max-width: 1299px) {
+    /*style for desktop and tablet*/
+  #BackDropForMainPage {
+    visibility: show;
+    transform: translate(-5vw, -10vh);
+    position: fixed;
+    z-index: -999;
+  }
+
+
+  
+    h1 {
+      text-align: center;
+      transform: translate(33vw, 0vh);
+      font-size: 50px;
+      width: 100%;
+      font-family: "Rubik", sans-serif;
+      letter-spacing: 0.3em;
+      color: #671cad;
+      text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+        2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231), 4px 0 0 rgb(39, 7, 46),
+        5px 0 0 rgb(39, 7, 45), 6px 0 0 rgb(39, 7, 44), 7px 0 0 rgb(39, 7, 43),
+        8px 0 0 rgb(58, 8, 139), 9px 0 0 rgb(30, 179, 30), 10px 0 0 rgb(39, 7, 41),
+        11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
+        0 0 10px rgba(39, 7, 27);
+    }
+    
+    
+    
+    .UPDATELOG {
+      position:fixed;
+      text-align: unset;
+      font-size: 20px;
+      width: 2vw;
+      text-wrap:nowrap;
+      font-family: "Rubik", sans-serif;
+      letter-spacing: 0.3em;
+      color: #000000;
+      text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+        2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231);
+        z-index: 999;
+      }
+    
+    
+      h2 {
+        text-align: center;
+        position: fixed;
+        font-size: 55px;
+        width: 100%;
+        font-family: "Rubik", sans-serif;
+        letter-spacing: 0.3em;
+        color: #671cad;
+        text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
+          2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231), 4px 0 0 rgb(39, 7, 46),
+          5px 0 0 rgb(39, 7, 45), 6px 0 0 rgb(39, 7, 44), 7px 0 0 rgb(39, 7, 43),
+          8px 0 0 rgb(58, 8, 139), 9px 0 0 rgb(30, 179, 30), 10px 0 0 rgb(39, 7, 41),
+          11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
+          0 0 10px rgba(39, 7, 27);
+      }
+  
+    }
+    /* Desktop*/
+   @media only screen and (min-width:768px) and (max-width: 999px) {
+    /*style for desktop and tablet*/
+  #BackDropForMainPage {
+    visibility: show;
+    transform: translate(-6vw, -10vh);
+    position: fixed;
+    z-index: -999;
+  }
+
+
+  
+    h1 {
+      text-align: center;
+      transform: translate(31vw, 0vh);
+      font-size: 50px;
+      width: 100%;
+      font-family: "Rubik", sans-serif;
+      letter-spacing: 0.3em;
+      color: #671cad;
       text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
         2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231), 4px 0 0 rgb(39, 7, 46),
         5px 0 0 rgb(39, 7, 45), 6px 0 0 rgb(39, 7, 44), 7px 0 0 rgb(39, 7, 43),
@@ -117,82 +396,6 @@
           11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
           0 0 10px rgba(39, 7, 27);
       }
-
-      #BackDropForMainPage {
-        position: fixed;
-        right: 0%;
-        bottom: 0;
-        height: 100vh;
-        min-width: 100vw;
-        z-index: -99;
-        
-      }
-  }
-
-
-  /* Desktop*/
-  @media only screen and (min-width:768px) {
-  /*style for desktop and tablet*/
-
-  #BackDropForMainPage {
-    position: fixed;
-    right: 0%;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -99;
-  }
-
-
-  h1 {
-    text-align: center;
-    transform: translate(33vw, 0vh);
-    font-size: 50px;
-    width: 100%;
-    font-family: "Rubik", sans-serif;
-    letter-spacing: 0.3em;
-    color: #671cad;
-    text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
-      2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231), 4px 0 0 rgb(39, 7, 46),
-      5px 0 0 rgb(39, 7, 45), 6px 0 0 rgb(39, 7, 44), 7px 0 0 rgb(39, 7, 43),
-      8px 0 0 rgb(58, 8, 139), 9px 0 0 rgb(30, 179, 30), 10px 0 0 rgb(39, 7, 41),
-      11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
-      0 0 10px rgba(39, 7, 27);
-  }
   
-  
-  
-  .UPDATELOG {
-    position:fixed;
-    text-align: unset;
-    font-size: 20px;
-    width: 2vw;
-    text-wrap:nowrap;
-    font-family: "Rubik", sans-serif;
-    letter-spacing: 0.3em;
-    color: #000000;
-    text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
-      2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231);
-    }
-  
-  
-    h2 {
-      text-align: center;
-      position: fixed;
-      font-size: 55px;
-      width: 100%;
-      font-family: "Rubik", sans-serif;
-      letter-spacing: 0.3em;
-      color: #671cad;
-      text-shadow: 0 0 0 rgb(39, 7, 49), 1px 0 0 rgb(39, 7, 49),
-        2px 0 0 rgb(39, 7, 48), 3px 0 0 rgb(24, 155, 231), 4px 0 0 rgb(39, 7, 46),
-        5px 0 0 rgb(39, 7, 45), 6px 0 0 rgb(39, 7, 44), 7px 0 0 rgb(39, 7, 43),
-        8px 0 0 rgb(58, 8, 139), 9px 0 0 rgb(30, 179, 30), 10px 0 0 rgb(39, 7, 41),
-        11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
-        0 0 10px rgba(39, 7, 27);
     }
 
-  }
-
-
-  
