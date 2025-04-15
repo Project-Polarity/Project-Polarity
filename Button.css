@@ -648,7 +648,7 @@
   }.BATTLESHIPBUTTON:hover {
     opacity: 0.9;
   }}
-
+/*Chromebook*/
   @media only screen and (min-width:1300px) and (max-width: 1499px) 
 {
     .PolarityAiButton {
@@ -690,7 +690,7 @@
     border-top-left-radius: 50px;
     width: 25vw;
     height: 25vh;
-    transform:translate(39vw, 15vh);
+    transform:translate(35vw, 15vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -795,7 +795,7 @@
     border-top-left-radius: 50px;
     width: 200px;
     height: 100px;
-    transform:translate(0vw, 0vh);
+    transform:translate(0vw, -82vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
