@@ -40,7 +40,7 @@
     border-top-left-radius: 50px;
     width: 40vw;
     height: 25vh;
-    transform:translate(20vw, 35vh);
+    transform:translate(19vw, 35vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -53,7 +53,7 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   
-  .DAILYMOVIEBUTTON{
+  .CASHCHANCE{
     display: flex;
     position: fixed;
     align-items: center;
@@ -63,9 +63,9 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
-    width: 400px;
-    height: 200px;
-    transform:translate(75vw, 50vh);
+    width: 25vw;
+    height: 25vh;
+    transform:translate(66vw, 15vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -186,7 +186,7 @@
   }.PICTONARYBUTTON:hover {
     opacity: 0.9;
   }
-  .BATTLESHIPBUTTON {
+  .GRABBUTTON {
     display: flex;
     position: unset;
     align-items: center;
@@ -197,8 +197,8 @@
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
     width: 25vw;
-    height: 15vh;
-    transform:translate(5vw, 35vh);
+    height: 25vh;
+    transform:translate(37vw, 35vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -209,7 +209,7 @@
     font-size: 20px;
     cursor: pointer;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  }.BATTLESHIPBUTTON:hover {
+  }.GRABBUTTON:hover {
     opacity: 0.9;
   }
 
@@ -274,7 +274,7 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   
-  .DAILYMOVIEBUTTON{
+  .CASHCHANCE{
     display: flex;
     position: fixed;
     align-items: center;
@@ -284,9 +284,9 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
-    width: 400px;
-    height: 200px;
-    transform:translate(75vw, 50vh);
+    width: 25vw;
+    height: 25vh;
+    transform:translate(66vw, 15vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -407,7 +407,7 @@
   }.PICTONARYBUTTON:hover {
     opacity: 0.9;
   }
-  .BATTLESHIPBUTTON {
+  .GRABBUTTON {
     display: flex;
     position: unset;
     align-items: center;
@@ -417,9 +417,9 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
-    width: 15vw;
-    height: 15vh;
-    transform:translate(0vw, 35vh);
+    width: 25vw;
+    height: 25vh;
+    transform:translate(37vw, 35vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -430,7 +430,7 @@
     font-size: 25px;
     cursor: pointer;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  }.BATTLESHIPBUTTON:hover {
+  }.GRABBUTTON:hover {
     opacity: 0.9;
   }}
 
@@ -476,7 +476,7 @@
     border-top-left-radius: 50px;
     width: 15vw;
     height: 15vh;
-    transform:translate(39vw, 15vh);
+    transform:translate(38vw, 15vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -489,7 +489,7 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   
-  .DAILYMOVIEBUTTON{
+  .CASHCHANCE{
     display: flex;
     position: fixed;
     align-items: center;
@@ -499,9 +499,9 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
-    width: 400px;
-    height: 200px;
-    transform:translate(75vw, 50vh);
+    width: 25vw;
+    height: 25vh;
+    transform:translate(66vw, 15vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -622,7 +622,7 @@
   }.PICTONARYBUTTON:hover {
     opacity: 0.9;
   }
-  .BATTLESHIPBUTTON {
+  .GRABBUTTON {
     display: flex;
     position: unset;
     align-items: center;
@@ -632,9 +632,9 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
-    width: 15vw;
-    height: 15vh;
-    transform:translate(0vw, 35vh);
+    width: 25vw;
+    height: 25vh;
+    transform:translate(37vw, 35vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -645,7 +645,7 @@
     font-size: 25px;
     cursor: pointer;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  }.BATTLESHIPBUTTON:hover {
+  }.GRABBUTTON:hover {
     opacity: 0.9;
   }}
 /*Chromebook*/
@@ -690,7 +690,7 @@
     border-top-left-radius: 50px;
     width: 25vw;
     height: 25vh;
-    transform:translate(35vw, 15vh);
+    transform:translate(34vw, 15vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -703,7 +703,7 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   
-  .DAILYMOVIEBUTTON{
+  .CASHCHANCE{
     display: flex;
     position: fixed;
     align-items: center;
@@ -713,9 +713,9 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
-    width: 400px;
-    height: 200px;
-    transform:translate(75vw, 50vh);
+    width: 25vw;
+    height: 25vh;
+    transform:translate(66vw, 15vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -836,7 +836,7 @@
   }.PICTONARYBUTTON:hover {
     opacity: 0.9;
   }
-  .BATTLESHIPBUTTON {
+  .GRABBUTTON {
     display: flex;
     position: unset;
     align-items: center;
@@ -846,9 +846,9 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
-    width: 15vw;
-    height: 15vh;
-    transform:translate(0vw, 35vh);
+    width: 25vw;
+    height: 25vh;
+    transform:translate(37vw, 35vh);
     background-image: url('Polarity Logo.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -859,7 +859,7 @@
     font-size: 25px;
     cursor: pointer;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  }.BATTLESHIPBUTTON:hover {
+  }.GRABBUTTON:hover {
     opacity: 0.9;
   }}
 
@@ -905,7 +905,7 @@
       border-top-left-radius: 50px;
       width: 20vw;
       height: 15vh;
-      transform:translate(39vw, 15vh);
+      transform:translate(38vw, 15vh);
       background-image: url('Polarity Logo.png'); /* Replace with your image path */
       background-size: cover;
       background-position: center;
@@ -918,7 +918,7 @@
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     }
     
-    .DAILYMOVIEBUTTON{
+    .CASHCHANCE{
       display: flex;
       position: fixed;
       align-items: center;
@@ -928,9 +928,9 @@
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-top-left-radius: 50px;
-      width: 400px;
-      height: 200px;
-      transform:translate(75vw, 50vh);
+      width: 15vw;
+      height: 15vh;
+      transform:translate(75vw, 25vh);
       background-image: url('Polarity Logo.png'); /* Replace with your image path */
       background-size: cover;
       background-position: center;
@@ -1051,7 +1051,7 @@
     }.PICTONARYBUTTON:hover {
       opacity: 0.9;
     }
-    .BATTLESHIPBUTTON {
+    .GRABBUTTON {
       display: flex;
       position: unset;
       align-items: center;
@@ -1061,9 +1061,9 @@
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-top-left-radius: 50px;
-      width: 15vw;
-      height: 15vh;
-      transform:translate(0vw, 35vh);
+      width: 25vw;
+      height: 25vh;
+      transform:translate(37vw, 35vh);
       background-image: url('Polarity Logo.png'); /* Replace with your image path */
       background-size: cover;
       background-position: center;
@@ -1074,7 +1074,7 @@
       font-size: 25px;
       cursor: pointer;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    }.BATTLESHIPBUTTON:hover {
+    }.GRABBUTTON:hover {
       opacity: 0.9;
     }}
   
@@ -1119,7 +1119,7 @@
         border-top-left-radius: 50px;
         width: 25vw;
         height: 15vh;
-        transform:translate(39vw, 15vh);
+        transform:translate(38vw, 15vh);
         background-image: url('Polarity Logo.png'); /* Replace with your image path */
         background-size: cover;
         background-position: center;
@@ -1132,7 +1132,7 @@
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
       }
       
-      .DAILYMOVIEBUTTON{
+      .CASHCHANCE{
         display: flex;
         position: fixed;
         align-items: center;
@@ -1142,9 +1142,9 @@
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
         border-top-left-radius: 50px;
-        width: 400px;
-        height: 200px;
-        transform:translate(75vw, 50vh);
+        width: 15vw;
+        height: 15vh;
+        transform:translate(75vw, 25vh);
         background-image: url('Polarity Logo.png'); /* Replace with your image path */
         background-size: cover;
         background-position: center;
@@ -1265,7 +1265,7 @@
       }.PICTONARYBUTTON:hover {
         opacity: 0.9;
       }
-      .BATTLESHIPBUTTON {
+      .GRABBUTTON {
         display: flex;
         position: unset;
         align-items: center;
@@ -1275,9 +1275,9 @@
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
         border-top-left-radius: 50px;
-        width: 15vw;
-        height: 15vh;
-        transform:translate(0vw, 35vh);
+        width: 25vw;
+        height: 2dvh;
+        transform:translate(37vw, 35vh);
         background-image: url('Polarity Logo.png'); /* Replace with your image path */
         background-size: cover;
         background-position: center;
@@ -1288,7 +1288,7 @@
         font-size: 25px;
         cursor: pointer;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-      }.BATTLESHIPBUTTON:hover {
+      }.GRABBUTTON:hover {
         opacity: 0.9;
       }}
     

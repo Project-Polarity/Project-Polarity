@@ -76,16 +76,21 @@
       z-index: -99;
       
     }
+    .CASHTEXT {
+  font-size:25;
+color:blue;
+position: center;
+transform: translate(33vw, 0vh);
+width: 100%;
+overflow-x: hidden;
   
-
-
-  }
-
-
+    }
+        }
 
 
   /* Desktop*/
-  @media only screen and (min-width:1699px) and (max-width: 1920px) {
+  @media only screen and (min-width:1699px) and (max-width: 1920px) 
+  {
   /*style for desktop and tablet*/
   #GalaxyImage {
     visibility: collapse;
@@ -139,7 +144,16 @@
         0 0 10px rgba(39, 7, 27);
     }
 
-  }
+    .CASHTEXT {
+  font-size:25;
+color:blue;
+position: center;
+transform: translate(33vw, 0vh);
+width: 100%;
+overflow-x: hidden;
+  
+    }
+        }
    /* Desktop*/
    @media only screen and (min-width:1500px) and (max-width: 1700px) {
     /*style for desktop and tablet*/
@@ -194,8 +208,17 @@
           11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
           0 0 10px rgba(39, 7, 27);
       }
+  .CASHTEXT {
+  font-size:25;
+color:blue;
+position: center;
+transform: translate(33vw, 0vh);
+width: 100%;
+overflow-x: hidden;
   
     }
+    }
+  
 
      /* Desktop*/
    @media only screen and (min-width:1300px) and (max-width: 1501px) {
@@ -251,8 +274,17 @@
           11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
           0 0 10px rgba(39, 7, 27);
       }
+  .CASHTEXT {
+  font-size:25;
+color:blue;
+position: center;
+transform: translate(33vw, 0vh);
+width: 100%;
+overflow-x: hidden;
   
     }
+    }
+  
        /* Desktop*/
    @media only screen and (min-width:1000px) and (max-width: 1299px) {
 
@@ -306,7 +338,15 @@
           11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
           0 0 10px rgba(39, 7, 27);
       }
+  .CASHTEXT {
+  font-size:25;
+color:blue;
+position: center;
+transform: translate(33vw, 0vh);
+width: 100%;
+overflow-x: hidden;
   
+    }
     }
     /* Desktop*/
    @media only screen and (min-width:768px) and (max-width: 999px) {
@@ -367,6 +407,22 @@
           11px 0 10px rgba(39, 7, 39), 11px 0 1px rgb(179, 23, 23),
           0 0 10px rgba(39, 7, 27);
       }
+  .CASHTEXT {
+  font-size:25;
+color:blue;
+position: center;
+transform: translate(33vw, 0vh);
+width: 100%;
+overflow-x: hidden;
   
     }
+    }
+
+
+    /* Add this to your CSS */
+html, body {
+  overflow-x: hidden;
+}
+  
+    
 
